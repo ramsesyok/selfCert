@@ -1,0 +1,11 @@
+RootCA:
+  file:
+    cert: ca.cert
+    key: ca.key
+  duration: 10 # 年
+  Organization: My Company # 必須
+  CommonName: www.example.com # 必須
+  # Country: JP # デフォルト JP
+  # Province: Aichi # 設定なしでも可
+  # Locality: Komaki # 設定なしでも可
+  
